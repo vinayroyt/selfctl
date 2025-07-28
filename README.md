@@ -63,9 +63,11 @@ Visit http://127.0.0.1:8000/docs for the Swagger UI.
 
 ### Who Am I?
 
+```bash
 curl -X POST http://127.0.0.1:8000/command \
   -H "Content-Type: application/json" \
   -d '{"id": "test1", "command": "whoami"}'
+````
 
 Command Manifest
 
