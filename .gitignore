@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.selfctl-env/
+env/
+venv/
+ENV/
+.venv/
+
+# Pyenv
+.python-version
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Pytest and coverage
+.cache/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Environments and runtime
+.env
+.env.*
+*.log
+*.pid
+
+# Uvicorn reload artifacts
+*.reload
+
+# FastAPI auto-generated OpenAPI or docs cache (if applicable)
+openapi.json
+
+# PyCharm
+.idea/
+
+# Project-specific data
+data/*.json
+!data/profile.template.json  # Allow templates
+
+# Migrations or compiled assets (optional)
+migrations/
+staticfiles/
+dist/
+build/
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
