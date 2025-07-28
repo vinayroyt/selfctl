@@ -85,7 +85,7 @@ docker run -p 8000:8000 selfctl
 ```
 
 ## Project Structure
-
+<pre>
 selfctl/
 ├── main.py                  # FastAPI app
 ├── requirements.txt         # Dependencies
@@ -96,3 +96,4 @@ selfctl/
 │   ├── profile.json
 │   ├── manifest.json
 │   └── preferences.json
+</pre>
